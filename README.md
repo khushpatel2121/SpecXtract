@@ -1,4 +1,4 @@
-# Conduit
+
 
 > Automated vendor spec sheet extraction pipeline for construction and electrical equipment.
 > Converts raw vendor PDFs into structured, validated JSON — ready for AI agents to reason over.
