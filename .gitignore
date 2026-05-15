@@ -1,0 +1,50 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+*.key
+*.pem
+
+# ── Data files (keep folder structure, ignore contents) ───────────────────────
+data/raw_pdfs/*
+data/extracted_text/*
+data/structured_json/*
+!data/raw_pdfs/.gitkeep
+!data/extracted_text/.gitkeep
+!data/structured_json/.gitkeep
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/*
+!logs/.gitkeep
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Build / packaging ─────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
