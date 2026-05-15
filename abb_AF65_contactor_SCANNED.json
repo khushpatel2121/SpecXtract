@@ -1,0 +1,99 @@
+{
+  "manufacturer": null,
+  "product_name": null,
+  "part_number": null,
+  "catalog_number": null,
+  "product_line": null,
+  "product_type": null,
+  "description": null,
+  "electrical": {
+    "voltage_rating": "250",
+    "current_rating": null,
+    "frequency": "50 Hz",
+    "interrupting_capacity": null,
+    "short_circuit_rating": null,
+    "pole_configuration": "3",
+    "trip_type": null,
+    "insulation_voltage": null,
+    "impulse_voltage": null
+  },
+  "physical": {
+    "width_mm": "45",
+    "height_mm": "45",
+    "depth_mm": "110",
+    "weight_kg": null,
+    "mounting_type": "DIN rail EN 60715 TH35 (35 mm)",
+    "enclosure_rating": "IP20",
+    "wire_size_min": null,
+    "wire_size_max": null,
+    "terminal_type": null
+  },
+  "environmental": {
+    "operating_temp_min": null,
+    "operating_temp_max": null,
+    "storage_temp_min": null,
+    "storage_temp_max": null,
+    "humidity_max": "995% non-condensing @ 55 °C",
+    "altitude_max": "4000 m",
+    "pollution_degree": "Pollution Degree 3",
+    "overvoltage_cat": null
+  },
+  "certifications": [
+    "CE",
+    "CSAC22.2.No",
+    "EN 60715",
+    "EN 60947-4",
+    "IEC 60947-4",
+    "RoHS",
+    "UL508"
+  ],
+  "compliance_standards": [
+    "NEC 2023 Article 430"
+  ],
+  "list_price": null,
+  "currency": "USD",
+  "metadata": {
+    "source_file": "abb_AF65_contactor_SCANNED.pdf",
+    "strategy": "scanned",
+    "fields_from_table": 0,
+    "fields_from_regex": 11,
+    "fields_from_llm": 0,
+    "confidence": 0.379,
+    "missing_fields": [
+      "manufacturer",
+      "product_name",
+      "part_number",
+      "catalog_number",
+      "product_line",
+      "product_type",
+      "electrical.current_rating",
+      "electrical.interrupting_capacity",
+      "electrical.short_circuit_rating",
+      "electrical.trip_type",
+      "electrical.insulation_voltage",
+      "physical.weight_kg",
+      "physical.wire_size_min",
+      "physical.wire_size_max",
+      "physical.terminal_type",
+      "environmental.operating_temp_min",
+      "environmental.operating_temp_max",
+      "environmental.overvoltage_cat"
+    ],
+    "warnings": [
+      "GROQ_API_KEY not set — LLM layer skipped"
+    ],
+    "field_sources": {
+      "electrical.voltage_rating": "regex",
+      "electrical.frequency": "regex",
+      "electrical.pole_configuration": "regex",
+      "physical.width_mm": "regex",
+      "physical.height_mm": "regex",
+      "physical.depth_mm": "regex",
+      "physical.mounting_type": "regex",
+      "physical.enclosure_rating": "regex",
+      "environmental.humidity_max": "regex",
+      "environmental.altitude_max": "regex",
+      "environmental.pollution_degree": "regex"
+    }
+  }
+}
